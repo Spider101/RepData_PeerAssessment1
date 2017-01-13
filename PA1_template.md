@@ -14,7 +14,7 @@ First we will set up the environment by pre-emptively cleaning the workspace, lo
 #clean the workspace before beginning
 rm(list = ls())
 
-#using lubridate_ and dplyr_0.5.0
+#using lubridate_1.6.0 and dplyr_0.5.0
 require("lubridate")
 require("dplyr")
 
@@ -134,7 +134,7 @@ newActivityData <- imputedActivityData %>%
     mutate(dayType = ifelse(wday(date) == 1 | wday(date) == 7, "weekend", "weekday")) %>%
     mutate(dayType = as.factor(dayType))
 
-#using ggplot2_
+#using ggplot2_2.2.0
 library(ggplot2)
 
 #summarize the number of steps for each 5min interval averaged over all the days

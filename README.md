@@ -1,3 +1,7 @@
+## Notes for using this repository
+
+The R Markdown script unzips the zip file containing the dataset, which is a part of the repository and stores it in a subdirectory called data in your working directory. So, after cloning the repository or downloading the source files directly, simply knit the R Markdown file and the standard markdown file and its html counterpart will be generated and stored in the current directory. The html output of the *knitting* can be viewed [here](http://htmlpreview.github.com/?https://github.com/Spider101/RepData_PeerAssessment1/blob/master/PA1_template.html). The associated plot figures can be found in the *PA1_template_files* directory.
+
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
